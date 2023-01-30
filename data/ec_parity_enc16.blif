@@ -1,0 +1,83 @@
+.model parity_enc16
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] A[12] \
+ A[13] A[14] A[15]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8] O[9] O[10] O[11] \
+ O[12] O[13] O[14] O[15] O[16]
+.names A[1] A[0] n34
+01 1
+10 1
+.names A[3] A[2] n35
+01 1
+10 1
+.names n35 n34 n36
+01 1
+10 1
+.names A[5] A[4] n37
+01 1
+10 1
+.names A[7] A[6] n38
+01 1
+10 1
+.names n38 n37 n39
+01 1
+10 1
+.names n39 n36 n40
+01 1
+10 1
+.names A[9] A[8] n41
+01 1
+10 1
+.names A[11] A[10] n42
+01 1
+10 1
+.names n42 n41 n43
+01 1
+10 1
+.names A[13] A[12] n44
+01 1
+10 1
+.names A[15] A[14] n45
+01 1
+10 1
+.names n45 n44 n46
+01 1
+10 1
+.names n46 n43 n47
+01 1
+10 1
+.names n47 n40 O[0]
+01 1
+10 1
+.names A[0] O[1]
+1 1
+.names A[1] O[2]
+1 1
+.names A[2] O[3]
+1 1
+.names A[3] O[4]
+1 1
+.names A[4] O[5]
+1 1
+.names A[5] O[6]
+1 1
+.names A[6] O[7]
+1 1
+.names A[7] O[8]
+1 1
+.names A[8] O[9]
+1 1
+.names A[9] O[10]
+1 1
+.names A[10] O[11]
+1 1
+.names A[11] O[12]
+1 1
+.names A[12] O[13]
+1 1
+.names A[13] O[14]
+1 1
+.names A[14] O[15]
+1 1
+.names A[15] O[16]
+1 1
+.end

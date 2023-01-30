@@ -1,0 +1,52 @@
+.model cmp_lte_4bit
+.inputs A[0] A[1] A[2] A[3] B[0] B[1] B[2] B[3]
+.outputs EQ
+.names B[3] A[3] n10
+00 1
+11 1
+.names B[2] A[2] n11
+00 1
+11 1
+.names n11 n10 n12
+11 1
+.names B[1] A[1] n13
+00 1
+11 1
+.names B[0] A[0] n14
+00 1
+11 1
+.names n14 n13 n15
+11 1
+.names n15 n12 n16
+11 0
+.names A[1] n17
+0 1
+.names B[1] n17 n18
+11 0
+.names B[0] n19
+0 1
+.names n19 A[0] n20
+11 0
+.names n20 n13 n21
+11 0
+.names n21 n18 n22
+11 0
+.names n22 n12 n23
+11 0
+.names A[3] n24
+0 1
+.names B[3] n24 n25
+11 0
+.names A[2] n26
+0 1
+.names B[2] n26 n27
+11 1
+.names n27 n10 n28
+11 0
+.names n28 n25 n29
+11 1
+.names n29 n23 n30
+11 1
+.names n30 n16 EQ
+11 0
+.end

@@ -1,0 +1,43 @@
+.model cmp_eq_8bit
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1] B[2] B[3] B[4] \
+ B[5] B[6] B[7]
+.outputs EQ
+.names B[2] A[2] n18
+00 1
+11 1
+.names B[3] A[3] n19
+00 1
+11 1
+.names n19 n18 n20
+11 1
+.names B[0] A[0] n21
+00 1
+11 1
+.names B[1] A[1] n22
+00 1
+11 1
+.names n22 n21 n23
+11 1
+.names n23 n20 n24
+11 1
+.names B[6] A[6] n25
+00 1
+11 1
+.names B[7] A[7] n26
+00 1
+11 1
+.names n26 n25 n27
+11 1
+.names B[4] A[4] n28
+00 1
+11 1
+.names B[5] A[5] n29
+00 1
+11 1
+.names n29 n28 n30
+11 1
+.names n30 n27 n31
+11 1
+.names n31 n24 EQ
+11 1
+.end

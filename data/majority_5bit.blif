@@ -1,0 +1,64 @@
+.model majority_5bit
+.inputs A[0] A[1] A[2] A[3] A[4]
+.outputs O
+.names A[1] A[0] n7
+11 1
+.names A[1] A[0] n8
+01 1
+10 1
+.names n8 A[2] n9
+11 1
+.names n9 n7 n10
+11 1
+.names n9 n7 n11
+01 1
+10 1
+.names n8 A[2] n12
+01 1
+10 1
+.names n12 A[3] n13
+11 1
+.names n13 n11 n14
+11 1
+.names n14 n10 n15
+11 0
+.names n14 n10 n16
+01 1
+10 1
+.names n13 n11 n17
+01 1
+10 1
+.names n12 A[3] n18
+01 1
+10 1
+.names n18 A[4] n19
+11 1
+.names n19 n17 n20
+11 1
+.names n20 n16 n21
+11 1
+.names n21 n15 n22
+01 1
+10 1
+.names n19 n17 n23
+11 0
+.names n23 n16 n24
+01 1
+10 1
+.names n18 A[4] n25
+01 1
+10 1
+.names n19 n17 n26
+01 1
+10 1
+.names n26 n25 n27
+11 1
+.names n27 n24 n28
+11 1
+.names n28 n22 n29
+11 0
+.names n24 n22 n30
+11 1
+.names n30 n29 O
+11 0
+.end

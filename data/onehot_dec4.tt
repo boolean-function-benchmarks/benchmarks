@@ -1,0 +1,21 @@
+.model onehot_dec
+.inputs onehot[0] onehot[1] onehot[2] onehot[3]
+.outputs binary[0] binary[1]
+.truthtable
+0000 00
+0001 00
+0010 10
+0011 10
+0100 01
+0101 01
+0110 01
+0111 01
+1000 11
+1001 11
+1010 11
+1011 11
+1100 11
+1101 11
+1110 11
+1111 11
+.end

@@ -1,0 +1,61 @@
+.model sub_unsigned_4bit
+.inputs A[0] A[1] A[2] A[3] B[0] B[1] B[2] B[3]
+.outputs O[0] O[1] O[2] O[3] O[4]
+.names B[0] A[0] O[0]
+01 1
+10 1
+.names B[1] A[1] n15
+00 1
+11 1
+.names A[0] n16
+0 1
+.names B[0] n16 n17
+11 0
+.names n17 n15 O[1]
+01 1
+10 1
+.names B[2] A[2] n19
+00 1
+11 1
+.names B[1] n20
+0 1
+.names n20 A[1] n21
+11 0
+.names n17 n15 n22
+11 0
+.names n22 n21 n23
+11 0
+.names n23 n19 O[2]
+01 1
+10 1
+.names B[3] A[3] n25
+00 1
+11 1
+.names B[2] n26
+0 1
+.names n26 A[2] n27
+11 1
+.names n27 n28
+0 1
+.names n23 n19 n29
+11 0
+.names n29 n28 n30
+11 0
+.names n30 n25 O[3]
+01 1
+10 1
+.names n25 n19 n32
+11 1
+.names n32 n23 n33
+11 0
+.names B[3] n34
+0 1
+.names n34 A[3] n35
+11 0
+.names n27 n25 n36
+11 0
+.names n36 n35 n37
+11 1
+.names n37 n33 O[4]
+11 1
+.end

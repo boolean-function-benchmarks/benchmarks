@@ -1,0 +1,13 @@
+.model onehot_enc
+.inputs binary[0] binary[1] binary[2]
+.outputs onehot[0] onehot[1] onehot[2] onehot[3] onehot[4] onehot[5] onehot[6] onehot[7]
+.truthtable
+000 10000000
+001 01000000
+010 00100000
+011 00010000
+100 00001000
+101 00000100
+110 00000010
+111 00000001
+.end

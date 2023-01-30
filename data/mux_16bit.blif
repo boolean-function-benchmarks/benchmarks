@@ -1,0 +1,137 @@
+.model mux_16bit
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] A[12] \
+ A[13] A[14] A[15] S[0] S[1] S[2] S[3] S[4]
+.outputs O
+.names S[0] n23
+0 1
+.names S[1] n24
+0 1
+.names S[2] n25
+0 1
+.names S[4] n26
+0 1
+.names S[3] n27
+0 1
+.names n27 A[0] n28
+11 1
+.names n28 n26 n29
+11 0
+.names S[3] A[8] n30
+11 1
+.names n30 n26 n31
+11 0
+.names n31 n29 n32
+11 0
+.names n32 n25 n33
+11 0
+.names n27 A[4] n34
+11 1
+.names n34 n26 n35
+11 0
+.names S[3] A[12] n36
+11 1
+.names n36 n26 n37
+11 0
+.names n37 n35 n38
+11 0
+.names n38 S[2] n39
+11 0
+.names n39 n33 n40
+11 0
+.names n40 n24 n41
+11 0
+.names n27 A[2] n42
+11 1
+.names n42 n26 n43
+11 0
+.names S[3] A[10] n44
+11 1
+.names n44 n26 n45
+11 0
+.names n45 n43 n46
+11 0
+.names n46 n25 n47
+11 0
+.names n27 A[6] n48
+11 1
+.names n48 n26 n49
+11 0
+.names S[3] A[14] n50
+11 1
+.names n50 n26 n51
+11 0
+.names n51 n49 n52
+11 0
+.names n52 S[2] n53
+11 0
+.names n53 n47 n54
+11 0
+.names n54 S[1] n55
+11 0
+.names n55 n41 n56
+11 0
+.names n56 n23 n57
+11 0
+.names n27 A[1] n58
+11 1
+.names n58 n26 n59
+11 0
+.names S[3] A[9] n60
+11 1
+.names n60 n26 n61
+11 0
+.names n61 n59 n62
+11 0
+.names n62 n25 n63
+11 0
+.names n27 A[5] n64
+11 1
+.names n64 n26 n65
+11 0
+.names S[3] A[13] n66
+11 1
+.names n66 n26 n67
+11 0
+.names n67 n65 n68
+11 0
+.names n68 S[2] n69
+11 0
+.names n69 n63 n70
+11 0
+.names n70 n24 n71
+11 0
+.names n27 A[3] n72
+11 1
+.names n72 n26 n73
+11 0
+.names S[3] A[11] n74
+11 1
+.names n74 n26 n75
+11 0
+.names n75 n73 n76
+11 0
+.names n76 n25 n77
+11 0
+.names n27 A[7] n78
+11 1
+.names n78 n26 n79
+11 0
+.names S[3] A[15] n80
+11 1
+.names n80 n26 n81
+11 0
+.names n81 n79 n82
+11 0
+.names n82 S[2] n83
+11 0
+.names n83 n77 n84
+11 0
+.names n84 S[1] n85
+11 0
+.names n85 n71 n86
+11 0
+.names n86 S[0] n87
+11 0
+.names n87 n57 O
+11 0
+.end

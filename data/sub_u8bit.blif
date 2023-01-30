@@ -1,0 +1,140 @@
+.model sub_unsigned_8bit
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1] B[2] B[3] B[4] \
+ B[5] B[6] B[7]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8]
+.names B[0] A[0] O[0]
+01 1
+10 1
+.names B[1] A[1] n27
+00 1
+11 1
+.names A[0] n28
+0 1
+.names B[0] n28 n29
+11 0
+.names n29 n27 O[1]
+01 1
+10 1
+.names B[2] A[2] n31
+00 1
+11 1
+.names B[1] n32
+0 1
+.names n32 A[1] n33
+11 0
+.names n29 n27 n34
+11 0
+.names n34 n33 n35
+11 0
+.names n35 n31 O[2]
+01 1
+10 1
+.names B[3] A[3] n37
+00 1
+11 1
+.names B[2] n38
+0 1
+.names n38 A[2] n39
+11 1
+.names n35 n31 n40
+11 1
+.names n40 n39 n41
+00 0
+.names n41 n37 O[3]
+01 1
+10 1
+.names B[4] A[4] n43
+00 1
+11 1
+.names n37 n31 n44
+11 1
+.names n44 n35 n45
+11 0
+.names B[3] n46
+0 1
+.names n46 A[3] n47
+11 0
+.names n39 n37 n48
+11 0
+.names n48 n47 n49
+11 1
+.names n49 n45 n50
+11 0
+.names n50 n43 O[4]
+01 1
+10 1
+.names B[5] A[5] n52
+00 1
+11 1
+.names B[4] n53
+0 1
+.names n53 A[4] n54
+11 1
+.names n50 n43 n55
+11 1
+.names n55 n54 n56
+00 0
+.names n56 n52 O[5]
+01 1
+10 1
+.names B[6] A[6] n58
+01 1
+10 1
+.names n58 n59
+0 1
+.names B[5] n60
+0 1
+.names n60 A[5] n61
+11 0
+.names n54 n52 n62
+11 0
+.names n62 n61 n63
+11 1
+.names n52 n43 n64
+11 1
+.names n64 n50 n65
+11 0
+.names n65 n63 n66
+11 0
+.names n66 n59 O[6]
+01 1
+10 1
+.names B[7] A[7] n68
+01 1
+10 1
+.names B[6] n69
+0 1
+.names n69 A[6] n70
+11 1
+.names n70 n71
+0 1
+.names n66 n59 n72
+11 0
+.names n72 n71 n73
+11 1
+.names n73 n68 O[7]
+01 1
+10 1
+.names n68 n58 n75
+00 1
+.names n75 n64 n76
+11 1
+.names n76 n50 n77
+11 0
+.names n75 n78
+0 1
+.names n78 n63 n79
+00 0
+.names B[7] n80
+0 1
+.names n80 A[7] n81
+11 0
+.names n71 n68 n82
+00 0
+.names n82 n81 n83
+11 1
+.names n83 n79 n84
+11 1
+.names n84 n77 O[8]
+11 1
+.end
