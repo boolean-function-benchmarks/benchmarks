@@ -1,6 +1,8 @@
 Benchmarks
 ==============
 
+### Arithmetic circuits
+
 | Benchmark        | Description                               | bit witdths            |
 |------------------|-------------------------------------------|------------------------|
 | adder_full_s     | Full adder signed                         | 4, 8, 12, 16           |
@@ -8,20 +10,39 @@ Benchmarks
 | adder_s          | Half adder signed                         | 4, 8, 12, 16           |
 | adder_u          | Half adder unsigne                        | 4, 8, 12, 16           |
 | addsub_u         | Configurable adder / subtractor           | 4, 8, 12, 16           |
-| alu              |                                                       |
+| sub_s            | Subtractor signed                                     |
+| sub_u            |                                                       |
+| mult_s           | Multipliers signed                                    |
+| mult_u           |                                                       |
+| alu              | Simple ALU (AND, OR, XOR, adder, subtractor)          |
+
+### Datapath logic
+| Benchmark        | Description                               | bit witdths            |
+|------------------|-------------------------------------------|------------------------|
+| mux              | Multiplexer                               |
+| onescount        | Counts the number  of active input bits   |
+
+
+### Comparators
+| Benchmark        | Description                               | bit witdths            |
+|------------------|-------------------------------------------|------------------------|
 | cmp_eq           |                                                       |
 | cmp_lt           |                                                       |
 | cmp_lte          |                                                       |
+
+### Error correction codes 
+| Benchmark        | Description                               | bit witdths            |
+|------------------|-------------------------------------------|------------------------|
 | ec_hamming_enc74 |                                                       |
 | ec_parity_decN   |                                                       |
 | ec_parity_encN   |                                                       |
-| majority         |                                                       |
-| mult_s           |                                                       |
-| mult_u           |                                                       |
-| mux              |                                                       |
-| onehot_decN      |                                                       |
-| onehot_encN      |                                                       |
-| onescount        |                                                       |
 | parity           |                                                       |
-| sub_s            |                                                       |
-| sub_u            |                                                       |
+| majority         |                                                       |
+
+
+### Encoders and decoders
+| Benchmark        | Description                               | bit witdths            |
+|------------------|-------------------------------------------|------------------------|
+| onehot_decN      | Onehot to binary decoder                                                |
+| onehot_encN      | Binary to onehot encoder                                                      |
+
