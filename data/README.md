@@ -21,6 +21,7 @@ Benchmarks
 |------------------|-------------------------------------------|------------------------|
 | mux              | Multiplexer                               |
 | onescount        | Counts the number  of active input bits   |
+| majority         |  Majority circuit                                                     |
 
 
 ### Comparators
@@ -33,11 +34,10 @@ Benchmarks
 ### Error correction codes 
 | Benchmark        | Description                               | bit witdths            |
 |------------------|-------------------------------------------|------------------------|
-| ec_hamming_enc74 |                                                       |
-| ec_parity_decN   |                                                       |
-| ec_parity_encN   |                                                       |
-| parity           |                                                       |
-| majority         |                                                       |
+| ec_parity_decN   |  Parity decoder                                                     |
+| ec_parity_encN   |  Parity encoder                                                      |
+| ec_hamming_enc74 |  Hamming encoder                                                     |
+| parity           |  Parity generator circuit                                                     |
 
 
 ### Encoders and decoders
