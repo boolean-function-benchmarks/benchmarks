@@ -1,0 +1,53 @@
+.model adder_unsigned_4bit
+.inputs A[0] A[1] A[2] A[3] B[0] B[1] B[2] B[3]
+.outputs O[0] O[1] O[2] O[3] O[4]
+.names B[0] A[0] O[0]
+01 1
+10 1
+.names B[1] A[1] n15
+01 1
+10 1
+.names B[0] A[0] n16
+11 1
+.names n16 n15 O[1]
+01 1
+10 1
+.names B[2] A[2] n18
+01 1
+10 1
+.names B[1] A[1] n19
+11 0
+.names n16 n15 n20
+11 0
+.names n20 n19 n21
+11 0
+.names n21 n18 O[2]
+01 1
+10 1
+.names B[3] A[3] n23
+01 1
+10 1
+.names B[2] A[2] n24
+11 1
+.names n24 n25
+0 1
+.names n21 n18 n26
+11 0
+.names n26 n25 n27
+11 0
+.names n27 n23 O[3]
+01 1
+10 1
+.names n23 n18 n29
+11 1
+.names n29 n21 n30
+11 0
+.names B[3] A[3] n31
+11 0
+.names n24 n23 n32
+11 0
+.names n32 n31 n33
+11 1
+.names n33 n30 O[4]
+11 0
+.end

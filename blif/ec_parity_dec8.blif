@@ -1,0 +1,46 @@
+.model parity_dec8
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] VALID
+.names A[8] n19
+0 1
+.names A[1] A[0] n20
+01 1
+10 1
+.names A[3] A[2] n21
+01 1
+10 1
+.names n21 n20 n22
+01 1
+10 1
+.names A[5] A[4] n23
+01 1
+10 1
+.names A[7] A[6] n24
+01 1
+10 1
+.names n24 n23 n25
+01 1
+10 1
+.names n25 n22 n26
+01 1
+10 1
+.names n26 n19 VALID
+01 1
+10 1
+.names A[1] O[0]
+1 1
+.names A[2] O[1]
+1 1
+.names A[3] O[2]
+1 1
+.names A[4] O[3]
+1 1
+.names A[5] O[4]
+1 1
+.names A[6] O[5]
+1 1
+.names A[7] O[6]
+1 1
+.names A[8] O[7]
+1 1
+.end

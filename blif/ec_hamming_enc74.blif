@@ -1,0 +1,31 @@
+.model hamming_ecoder
+.inputs data_in[0] data_in[1] data_in[2] data_in[3]
+.outputs ham_out[0] ham_out[1] ham_out[2] ham_out[3] ham_out[4] ham_out[5] \
+ ham_out[6]
+.names data_in[2] data_in[1] n12
+01 1
+10 1
+.names n12 data_in[3] ham_out[0]
+01 1
+10 1
+.names data_in[2] data_in[0] n14
+01 1
+10 1
+.names n14 data_in[3] ham_out[1]
+01 1
+10 1
+.names data_in[1] data_in[0] n16
+01 1
+10 1
+.names n16 data_in[3] ham_out[2]
+01 1
+10 1
+.names data_in[0] ham_out[3]
+1 1
+.names data_in[1] ham_out[4]
+1 1
+.names data_in[2] ham_out[5]
+1 1
+.names data_in[3] ham_out[6]
+1 1
+.end

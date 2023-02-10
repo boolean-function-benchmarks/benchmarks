@@ -1,0 +1,10 @@
+.i 2
+.o 4
+.ilb binary[0] binary[1]
+.ob onehot[0] onehot[1] onehot[2] onehot[3]
+.p 4
+00 1000
+10 0100
+01 0010
+11 0001
+.e

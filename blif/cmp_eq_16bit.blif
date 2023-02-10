@@ -1,0 +1,84 @@
+.model cmp_eq_16bit
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] A[12] \
+ A[13] A[14] A[15] B[0] B[1] B[2] B[3] B[4] B[5] B[6] B[7] B[8] B[9] B[10] \
+ B[11] B[12] B[13] B[14] B[15]
+.outputs EQ
+.names B[10] A[10] n34
+00 1
+11 1
+.names B[11] A[11] n35
+00 1
+11 1
+.names n35 n34 n36
+11 1
+.names B[8] A[8] n37
+00 1
+11 1
+.names B[9] A[9] n38
+00 1
+11 1
+.names n38 n37 n39
+11 1
+.names n39 n36 n40
+11 1
+.names B[14] A[14] n41
+00 1
+11 1
+.names B[15] A[15] n42
+00 1
+11 1
+.names n42 n41 n43
+11 1
+.names B[12] A[12] n44
+00 1
+11 1
+.names B[13] A[13] n45
+00 1
+11 1
+.names n45 n44 n46
+11 1
+.names n46 n43 n47
+11 1
+.names n47 n40 n48
+11 1
+.names B[2] A[2] n49
+00 1
+11 1
+.names B[3] A[3] n50
+00 1
+11 1
+.names n50 n49 n51
+11 1
+.names B[0] A[0] n52
+00 1
+11 1
+.names B[1] A[1] n53
+00 1
+11 1
+.names n53 n52 n54
+11 1
+.names n54 n51 n55
+11 1
+.names B[6] A[6] n56
+00 1
+11 1
+.names B[7] A[7] n57
+00 1
+11 1
+.names n57 n56 n58
+11 1
+.names B[4] A[4] n59
+00 1
+11 1
+.names B[5] A[5] n60
+00 1
+11 1
+.names n60 n59 n61
+11 1
+.names n61 n58 n62
+11 1
+.names n62 n55 n63
+11 1
+.names n63 n48 EQ
+11 1
+.end

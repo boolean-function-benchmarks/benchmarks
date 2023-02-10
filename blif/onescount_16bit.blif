@@ -1,0 +1,310 @@
+.model onescount_16bit
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] A[12] \
+ A[13] A[14] A[15]
+.outputs O[0] O[1] O[2] O[3] O[4]
+.names A[1] A[0] n22
+01 1
+10 1
+.names n22 A[2] n23
+01 1
+10 1
+.names n23 A[3] n24
+01 1
+10 1
+.names n24 A[4] n25
+01 1
+10 1
+.names n25 A[5] n26
+01 1
+10 1
+.names n26 A[6] n27
+01 1
+10 1
+.names n27 A[7] n28
+01 1
+10 1
+.names n28 A[8] n29
+01 1
+10 1
+.names n29 A[9] n30
+01 1
+10 1
+.names n30 A[10] n31
+01 1
+10 1
+.names n31 A[11] n32
+01 1
+10 1
+.names n32 A[12] n33
+01 1
+10 1
+.names n33 A[13] n34
+01 1
+10 1
+.names n34 A[14] n35
+01 1
+10 1
+.names n35 A[15] O[0]
+01 1
+10 1
+.names A[1] A[0] n37
+11 1
+.names n22 A[2] n38
+11 1
+.names n38 n37 n39
+01 1
+10 1
+.names n23 A[3] n40
+11 1
+.names n40 n39 n41
+01 1
+10 1
+.names n24 A[4] n42
+11 1
+.names n42 n41 n43
+01 1
+10 1
+.names n25 A[5] n44
+11 1
+.names n44 n43 n45
+01 1
+10 1
+.names n26 A[6] n46
+11 1
+.names n46 n45 n47
+01 1
+10 1
+.names n27 A[7] n48
+11 1
+.names n48 n47 n49
+01 1
+10 1
+.names n28 A[8] n50
+11 1
+.names n50 n49 n51
+01 1
+10 1
+.names n29 A[9] n52
+11 1
+.names n52 n51 n53
+01 1
+10 1
+.names n30 A[10] n54
+11 1
+.names n54 n53 n55
+01 1
+10 1
+.names n31 A[11] n56
+11 1
+.names n56 n55 n57
+01 1
+10 1
+.names n32 A[12] n58
+11 1
+.names n58 n57 n59
+01 1
+10 1
+.names n33 A[13] n60
+11 1
+.names n60 n59 n61
+01 1
+10 1
+.names n34 A[14] n62
+11 1
+.names n62 n61 n63
+01 1
+10 1
+.names n35 A[15] n64
+11 1
+.names n64 n63 O[1]
+01 1
+10 1
+.names n38 n37 n66
+11 1
+.names n40 n39 n67
+11 1
+.names n67 n66 n68
+01 1
+10 1
+.names n42 n41 n69
+11 1
+.names n69 n68 n70
+01 1
+10 1
+.names n44 n43 n71
+11 1
+.names n71 n70 n72
+01 1
+10 1
+.names n46 n45 n73
+11 1
+.names n73 n72 n74
+01 1
+10 1
+.names n48 n47 n75
+11 1
+.names n75 n74 n76
+01 1
+10 1
+.names n50 n49 n77
+11 1
+.names n77 n76 n78
+01 1
+10 1
+.names n52 n51 n79
+11 1
+.names n79 n78 n80
+01 1
+10 1
+.names n54 n53 n81
+11 1
+.names n81 n80 n82
+01 1
+10 1
+.names n56 n55 n83
+11 1
+.names n83 n82 n84
+01 1
+10 1
+.names n58 n57 n85
+11 1
+.names n85 n84 n86
+01 1
+10 1
+.names n60 n59 n87
+11 1
+.names n87 n86 n88
+01 1
+10 1
+.names n62 n61 n89
+11 1
+.names n89 n88 n90
+01 1
+10 1
+.names n64 n63 n91
+11 1
+.names n91 n90 O[2]
+01 1
+10 1
+.names n67 n66 n93
+11 1
+.names n69 n68 n94
+11 1
+.names n94 n93 n95
+01 1
+10 1
+.names n71 n70 n96
+11 1
+.names n96 n95 n97
+01 1
+10 1
+.names n73 n72 n98
+11 1
+.names n98 n97 n99
+01 1
+10 1
+.names n75 n74 n100
+11 1
+.names n100 n99 n101
+01 1
+10 1
+.names n77 n76 n102
+11 1
+.names n102 n101 n103
+01 1
+10 1
+.names n79 n78 n104
+11 1
+.names n104 n103 n105
+01 1
+10 1
+.names n81 n80 n106
+11 1
+.names n106 n105 n107
+01 1
+10 1
+.names n83 n82 n108
+11 1
+.names n108 n107 n109
+01 1
+10 1
+.names n85 n84 n110
+11 1
+.names n110 n109 n111
+01 1
+10 1
+.names n87 n86 n112
+11 1
+.names n112 n111 n113
+01 1
+10 1
+.names n89 n88 n114
+11 1
+.names n114 n113 n115
+01 1
+10 1
+.names n91 n90 n116
+11 1
+.names n116 n115 O[3]
+01 1
+10 1
+.names n93 n68 n118
+11 1
+.names n118 n69 n119
+11 1
+.names n96 n95 n120
+11 1
+.names n120 n119 n121
+01 1
+10 1
+.names n98 n97 n122
+11 1
+.names n122 n121 n123
+01 1
+10 1
+.names n100 n99 n124
+11 1
+.names n124 n123 n125
+01 1
+10 1
+.names n102 n101 n126
+11 1
+.names n126 n125 n127
+01 1
+10 1
+.names n104 n103 n128
+11 1
+.names n128 n127 n129
+01 1
+10 1
+.names n106 n105 n130
+11 1
+.names n130 n129 n131
+01 1
+10 1
+.names n108 n107 n132
+11 1
+.names n132 n131 n133
+01 1
+10 1
+.names n110 n109 n134
+11 1
+.names n134 n133 n135
+01 1
+10 1
+.names n112 n111 n136
+11 1
+.names n136 n135 n137
+01 1
+10 1
+.names n114 n113 n138
+11 1
+.names n138 n137 n139
+01 1
+10 1
+.names n116 n115 n140
+11 1
+.names n140 n139 O[4]
+01 1
+10 1
+.end

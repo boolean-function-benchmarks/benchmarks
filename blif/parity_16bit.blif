@@ -1,0 +1,50 @@
+.model parity_16bit
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9] A[10] A[11] A[12] \
+ A[13] A[14] A[15]
+.outputs O
+.names A[1] A[0] n18
+01 1
+10 1
+.names A[3] A[2] n19
+01 1
+10 1
+.names n19 n18 n20
+01 1
+10 1
+.names A[5] A[4] n21
+01 1
+10 1
+.names A[7] A[6] n22
+01 1
+10 1
+.names n22 n21 n23
+01 1
+10 1
+.names n23 n20 n24
+01 1
+10 1
+.names A[9] A[8] n25
+01 1
+10 1
+.names A[11] A[10] n26
+01 1
+10 1
+.names n26 n25 n27
+01 1
+10 1
+.names A[13] A[12] n28
+01 1
+10 1
+.names A[15] A[14] n29
+01 1
+10 1
+.names n29 n28 n30
+01 1
+10 1
+.names n30 n27 n31
+01 1
+10 1
+.names n31 n24 O
+01 1
+10 1
+.end

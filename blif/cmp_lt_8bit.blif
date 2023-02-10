@@ -1,0 +1,105 @@
+.model cmp_lt_8bit
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1] B[2] B[3] B[4] \
+ B[5] B[6] B[7]
+.outputs EQ
+.names B[7] A[7] n18
+00 1
+11 1
+.names B[6] A[6] n19
+00 1
+11 1
+.names n19 n18 n20
+11 1
+.names B[5] A[5] n21
+00 1
+11 1
+.names B[4] A[4] n22
+00 1
+11 1
+.names n22 n21 n23
+11 1
+.names n23 n20 n24
+11 1
+.names B[3] A[3] n25
+00 1
+11 1
+.names B[2] A[2] n26
+00 1
+11 1
+.names n26 n25 n27
+11 1
+.names A[1] n28
+0 1
+.names B[1] n28 n29
+11 0
+.names B[1] A[1] n30
+00 1
+11 1
+.names B[0] n31
+0 1
+.names n31 A[0] n32
+11 0
+.names n32 n30 n33
+11 0
+.names n33 n29 n34
+11 0
+.names n34 n27 n35
+11 0
+.names A[3] n36
+0 1
+.names B[3] n36 n37
+11 0
+.names A[2] n38
+0 1
+.names B[2] n38 n39
+11 1
+.names n39 n25 n40
+11 0
+.names n40 n37 n41
+11 1
+.names n41 n35 n42
+11 0
+.names n42 n24 n43
+11 0
+.names A[5] n44
+0 1
+.names B[5] n44 n45
+11 0
+.names A[4] n46
+0 1
+.names B[4] n46 n47
+11 1
+.names n47 n21 n48
+11 0
+.names n48 n45 n49
+11 0
+.names n49 n20 n50
+11 0
+.names A[7] n51
+0 1
+.names B[7] n51 n52
+11 0
+.names A[6] n53
+0 1
+.names B[6] n53 n54
+11 1
+.names n54 n18 n55
+11 0
+.names n55 n52 n56
+11 1
+.names n56 n50 n57
+11 1
+.names n57 n43 n58
+11 0
+.names B[0] A[0] n59
+00 1
+11 1
+.names n59 n30 n60
+11 1
+.names n60 n27 n61
+11 1
+.names n61 n24 n62
+11 0
+.names n62 n58 EQ
+11 1
+.end

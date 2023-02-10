@@ -1,0 +1,22 @@
+.model cmp_eq_4bit
+.inputs A[0] A[1] A[2] A[3] B[0] B[1] B[2] B[3]
+.outputs EQ
+.names B[2] A[2] n10
+00 1
+11 1
+.names B[3] A[3] n11
+00 1
+11 1
+.names n11 n10 n12
+11 1
+.names B[0] A[0] n13
+00 1
+11 1
+.names B[1] A[1] n14
+00 1
+11 1
+.names n14 n13 n15
+11 1
+.names n15 n12 EQ
+11 1
+.end

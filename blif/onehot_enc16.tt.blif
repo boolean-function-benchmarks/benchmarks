@@ -1,0 +1,36 @@
+.model onehot_enc
+.inputs binary[0] binary[1] binary[2] binary[3]
+.outputs onehot[0] onehot[1] onehot[2] onehot[3] onehot[4] onehot[5] onehot[6] onehot[7] onehot[8] onehot[9] onehot[10] onehot[11] onehot[12] onehot[13] onehot[14] onehot[15]
+.names binary[0] binary[1] binary[2] binary[3] onehot[0]
+0000 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[1]
+0001 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[2]
+0010 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[3]
+0011 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[4]
+0100 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[5]
+0101 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[6]
+0110 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[7]
+0111 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[8]
+1000 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[9]
+1001 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[10]
+1010 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[11]
+1011 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[12]
+1100 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[13]
+1101 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[14]
+1110 1
+.names binary[0] binary[1] binary[2] binary[3] onehot[15]
+1111 1
+.end

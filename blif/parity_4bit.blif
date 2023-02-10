@@ -1,0 +1,13 @@
+.model parity_4bit
+.inputs A[0] A[1] A[2] A[3]
+.outputs O
+.names A[1] A[0] n6
+01 1
+10 1
+.names A[3] A[2] n7
+01 1
+10 1
+.names n7 n6 O
+01 1
+10 1
+.end

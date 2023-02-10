@@ -1,0 +1,26 @@
+.model parity_dec4
+.inputs A[0] A[1] A[2] A[3] A[4]
+.outputs O[0] O[1] O[2] O[3] VALID
+.names A[4] n11
+0 1
+.names A[1] A[0] n12
+01 1
+10 1
+.names A[3] A[2] n13
+01 1
+10 1
+.names n13 n12 n14
+01 1
+10 1
+.names n14 n11 VALID
+01 1
+10 1
+.names A[1] O[0]
+1 1
+.names A[2] O[1]
+1 1
+.names A[3] O[2]
+1 1
+.names A[4] O[3]
+1 1
+.end
