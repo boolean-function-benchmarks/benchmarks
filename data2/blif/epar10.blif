@@ -1,0 +1,31 @@
+.model parity_even
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] A[9]
+.outputs O
+.names A[1] A[0] n12
+01 1
+10 1
+.names A[3] A[2] n13
+01 1
+10 1
+.names n13 n12 n14
+01 1
+10 1
+.names A[5] A[4] n15
+01 1
+10 1
+.names A[7] A[6] n16
+01 1
+10 1
+.names n16 n15 n17
+01 1
+10 1
+.names n17 n14 n18
+01 1
+10 1
+.names A[9] A[8] n19
+01 1
+10 1
+.names n19 n18 O
+01 1
+10 1
+.end

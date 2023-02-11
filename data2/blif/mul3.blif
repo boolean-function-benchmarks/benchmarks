@@ -1,0 +1,79 @@
+.model multiplier_unsigned
+.inputs A[0] A[1] A[2] B[0] B[1] B[2]
+.outputs P[0] P[1] P[2] P[3] P[4] P[5]
+.names B[0] A[0] P[0]
+11 1
+.names B[0] A[1] n14
+11 1
+.names B[1] A[0] n15
+11 1
+.names n15 n14 P[1]
+01 1
+10 1
+.names B[0] A[2] n17
+11 1
+.names B[1] A[1] n18
+11 1
+.names n18 n17 n19
+01 1
+10 1
+.names B[2] A[0] n20
+11 1
+.names n20 n19 n21
+01 1
+10 1
+.names n15 n14 n22
+11 1
+.names n22 n21 P[2]
+01 1
+10 1
+.names B[1] A[2] n24
+11 0
+.names B[2] A[1] n25
+11 1
+.names n25 n24 n26
+01 1
+10 1
+.names n26 n27
+0 1
+.names n18 n17 n28
+11 0
+.names n20 n19 n29
+11 0
+.names n29 n28 n30
+11 0
+.names n30 n27 n31
+01 1
+10 1
+.names n22 n21 n32
+11 1
+.names n32 n31 P[3]
+01 1
+10 1
+.names B[2] A[2] n34
+11 1
+.names n24 n35
+0 1
+.names n25 n35 n36
+11 1
+.names n36 n34 n37
+00 1
+11 1
+.names n37 n38
+0 1
+.names n30 n27 n39
+11 0
+.names n32 n31 n40
+11 0
+.names n40 n39 n41
+11 0
+.names n41 n38 P[4]
+01 1
+10 1
+.names n36 n34 n43
+11 0
+.names n41 n38 n44
+11 0
+.names n44 n43 P[5]
+11 0
+.end

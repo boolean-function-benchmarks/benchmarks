@@ -1,0 +1,120 @@
+.model mcomp
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] B[0] B[1] B[2] B[3] B[4] B[5]
+.outputs LT EQ GT
+.names B[5] A[5] n16
+00 1
+11 1
+.names B[4] A[4] n17
+00 1
+11 1
+.names n17 n16 n18
+11 1
+.names B[3] A[3] n19
+00 1
+11 1
+.names B[2] A[2] n20
+00 1
+11 1
+.names n20 n19 n21
+11 1
+.names B[1] n22
+0 1
+.names n22 A[1] n23
+00 0
+.names B[1] A[1] n24
+00 1
+11 1
+.names B[0] n25
+0 1
+.names n25 A[0] n26
+11 0
+.names n26 n24 n27
+11 0
+.names n27 n23 n28
+11 0
+.names n28 n21 n29
+11 0
+.names B[3] n30
+0 1
+.names n30 A[3] n31
+00 0
+.names A[2] n32
+0 1
+.names B[2] n32 n33
+11 1
+.names n33 n19 n34
+11 0
+.names n34 n31 n35
+11 1
+.names n35 n29 n36
+11 0
+.names n36 n18 n37
+11 0
+.names B[5] n38
+0 1
+.names n38 A[5] n39
+00 0
+.names A[4] n40
+0 1
+.names B[4] n40 n41
+11 1
+.names n41 n16 n42
+11 0
+.names n42 n39 n43
+11 1
+.names n43 n37 n44
+11 0
+.names B[0] A[0] n45
+00 1
+11 1
+.names n45 n24 n46
+11 1
+.names n46 n18 n47
+11 1
+.names n47 n21 n48
+11 0
+.names n48 n44 LT
+11 1
+.names B[2] n32 n50
+00 0
+.names n30 A[3] n51
+11 0
+.names n51 n50 n52
+11 1
+.names B[4] n40 n53
+00 0
+.names n38 A[5] n54
+11 0
+.names n54 n53 n55
+11 1
+.names n55 n52 n56
+11 1
+.names n25 A[0] n57
+00 0
+.names n57 n23 n58
+11 1
+.names n25 A[0] n59
+11 0
+.names n22 A[1] n60
+11 0
+.names n60 n59 n61
+11 1
+.names n61 n58 n62
+11 1
+.names n38 A[5] n63
+00 1
+.names n41 n63 n64
+00 1
+.names n30 A[3] n65
+00 1
+.names n33 n65 n66
+00 1
+.names n66 n64 n67
+11 1
+.names n67 n62 n68
+11 1
+.names n68 n56 EQ
+11 1
+.names n44 GT
+0 1
+.end

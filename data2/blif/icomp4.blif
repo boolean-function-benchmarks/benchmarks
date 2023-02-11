@@ -1,0 +1,55 @@
+.model identity_comp
+.inputs A[0] A[1] A[2] A[3]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8] O[9] O[10] O[11] \
+ O[12] O[13] O[14] O[15] O[16] O[17]
+.names A[0] n23
+0 1
+.names A[1] n23 O[0]
+11 1
+.names A[1] A[0] O[1]
+00 1
+11 1
+.names A[1] n26
+0 1
+.names n26 A[0] O[2]
+11 1
+.names A[2] n23 O[3]
+11 1
+.names A[2] A[0] O[4]
+00 1
+11 1
+.names A[2] n30
+0 1
+.names n30 A[0] O[5]
+11 1
+.names A[3] n23 O[6]
+11 1
+.names A[3] A[0] O[7]
+00 1
+11 1
+.names A[3] n34
+0 1
+.names n34 A[0] O[8]
+11 1
+.names A[2] n26 O[9]
+11 1
+.names A[2] A[1] O[10]
+00 1
+11 1
+.names n30 A[1] O[11]
+11 1
+.names A[3] n26 O[12]
+11 1
+.names A[3] A[1] O[13]
+00 1
+11 1
+.names n34 A[1] O[14]
+11 1
+.names A[3] n30 O[15]
+11 1
+.names A[3] A[2] O[16]
+00 1
+11 1
+.names n34 A[2] O[17]
+11 1
+.end

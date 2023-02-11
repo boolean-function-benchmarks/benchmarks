@@ -1,0 +1,102 @@
+.model demux
+.inputs A ADDR[0] ADDR[1] ADDR[2]
+.outputs OUT[0] OUT[1] OUT[2] OUT[3] OUT[4] OUT[5] OUT[6] OUT[7]
+.names ADDR[2] n13
+0 1
+.names ADDR[1] n14
+0 1
+.names n14 ADDR[0] n15
+11 1
+.names n15 n13 n16
+11 0
+.names ADDR[0] n17
+0 1
+.names ADDR[1] n17 n18
+11 1
+.names n18 n13 n19
+11 0
+.names n19 n16 n20
+11 1
+.names ADDR[1] ADDR[0] n21
+11 1
+.names n21 n13 n22
+11 0
+.names ADDR[1] ADDR[0] n23
+00 1
+.names n23 ADDR[2] n24
+11 0
+.names n24 n22 n25
+11 1
+.names n25 n20 n26
+11 1
+.names n15 ADDR[2] n27
+11 0
+.names n18 ADDR[2] n28
+11 0
+.names n28 n27 n29
+11 1
+.names n23 n13 n30
+11 0
+.names n21 ADDR[2] n31
+11 0
+.names n31 n30 n32
+11 1
+.names n32 n29 n33
+11 1
+.names n33 n26 n34
+11 0
+.names A n35
+0 1
+.names n30 n35 n36
+00 1
+.names n36 n34 OUT[0]
+11 1
+.names n32 n28 n38
+11 1
+.names n27 n24 n39
+11 1
+.names n22 n20 n40
+11 1
+.names n40 n39 n41
+11 1
+.names n41 n38 n42
+11 0
+.names n16 n35 n43
+00 1
+.names n43 n42 OUT[1]
+11 1
+.names n19 n35 n45
+00 1
+.names n45 n42 OUT[2]
+11 1
+.names n22 n35 n47
+00 1
+.names n47 n42 OUT[3]
+11 1
+.names n27 n25 n49
+11 1
+.names n49 n20 n50
+11 1
+.names n50 n38 n51
+11 0
+.names n24 n35 n52
+00 1
+.names n52 n51 OUT[4]
+11 1
+.names n27 n26 n54
+11 1
+.names n54 n38 n55
+11 0
+.names n27 n35 n56
+00 1
+.names n56 n55 OUT[5]
+11 1
+.names n28 n35 n58
+00 1
+.names n58 n34 OUT[6]
+11 1
+.names n31 n35 n60
+00 1
+.names n60 n34 OUT[7]
+11 1
+.end

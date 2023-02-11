@@ -1,0 +1,557 @@
+.model demux
+.inputs A ADDR[0] ADDR[1] ADDR[2] ADDR[3] ADDR[4]
+.outputs OUT[0] OUT[1] OUT[2] OUT[3] OUT[4] OUT[5] OUT[6] OUT[7] OUT[8] \
+ OUT[9] OUT[10] OUT[11] OUT[12] OUT[13] OUT[14] OUT[15] OUT[16] OUT[17] \
+ OUT[18] OUT[19] OUT[20] OUT[21] OUT[22] OUT[23] OUT[24] OUT[25] OUT[26] \
+ OUT[27] OUT[28] OUT[29] OUT[30] OUT[31]
+.names ADDR[1] n39
+0 1
+.names n39 ADDR[0] n40
+11 1
+.names ADDR[2] n41
+0 1
+.names ADDR[3] n41 n42
+11 1
+.names n42 n40 n43
+11 1
+.names n43 ADDR[4] n44
+11 0
+.names ADDR[0] n45
+0 1
+.names ADDR[1] n45 n46
+11 1
+.names n46 n42 n47
+11 1
+.names n47 ADDR[4] n48
+11 0
+.names n48 n44 n49
+11 1
+.names ADDR[1] ADDR[0] n50
+11 1
+.names n50 n42 n51
+11 1
+.names n51 ADDR[4] n52
+11 0
+.names ADDR[1] ADDR[0] n53
+00 1
+.names ADDR[3] ADDR[2] n54
+11 1
+.names n54 n53 n55
+11 1
+.names n55 ADDR[4] n56
+11 0
+.names n56 n52 n57
+11 1
+.names n57 n49 n58
+11 1
+.names n54 n40 n59
+11 1
+.names n59 ADDR[4] n60
+11 0
+.names n54 n46 n61
+11 1
+.names n61 ADDR[4] n62
+11 0
+.names n62 n60 n63
+11 1
+.names n54 n50 n64
+11 1
+.names n64 ADDR[4] n65
+11 0
+.names ADDR[4] n66
+0 1
+.names ADDR[3] ADDR[2] n67
+00 1
+.names n67 n40 n68
+11 1
+.names n68 n66 n69
+11 0
+.names n69 n65 n70
+11 1
+.names n70 n63 n71
+11 1
+.names n71 n58 n72
+11 1
+.names n67 n46 n73
+11 1
+.names n73 n66 n74
+11 0
+.names n67 n50 n75
+11 1
+.names n75 n66 n76
+11 0
+.names n76 n74 n77
+11 1
+.names ADDR[3] n78
+0 1
+.names n78 ADDR[2] n79
+11 1
+.names n79 n53 n80
+11 1
+.names n80 n66 n81
+11 0
+.names n79 n40 n82
+11 1
+.names n82 n66 n83
+11 0
+.names n83 n81 n84
+11 1
+.names n84 n77 n85
+11 1
+.names n79 n46 n86
+11 1
+.names n86 n66 n87
+11 0
+.names n79 n50 n88
+11 1
+.names n88 n66 n89
+11 0
+.names n89 n87 n90
+11 1
+.names n53 n42 n91
+11 1
+.names n91 n66 n92
+11 0
+.names n43 n66 n93
+11 0
+.names n93 n92 n94
+11 1
+.names n94 n90 n95
+11 1
+.names n95 n85 n96
+11 1
+.names n96 n72 n97
+11 1
+.names n47 n66 n98
+11 0
+.names n51 n66 n99
+11 0
+.names n99 n98 n100
+11 1
+.names n55 n66 n101
+11 0
+.names n59 n66 n102
+11 0
+.names n102 n101 n103
+11 1
+.names n103 n100 n104
+11 1
+.names n61 n66 n105
+11 0
+.names n64 n66 n106
+11 0
+.names n106 n105 n107
+11 1
+.names n67 n53 n108
+11 1
+.names n108 ADDR[4] n109
+11 0
+.names n68 ADDR[4] n110
+11 0
+.names n110 n109 n111
+11 1
+.names n111 n107 n112
+11 1
+.names n112 n104 n113
+11 1
+.names n73 ADDR[4] n114
+11 0
+.names n75 ADDR[4] n115
+11 0
+.names n115 n114 n116
+11 1
+.names n80 ADDR[4] n117
+11 0
+.names n82 ADDR[4] n118
+11 0
+.names n118 n117 n119
+11 1
+.names n119 n116 n120
+11 1
+.names n86 ADDR[4] n121
+11 0
+.names n88 ADDR[4] n122
+11 0
+.names n122 n121 n123
+11 1
+.names n108 n66 n124
+11 0
+.names n91 ADDR[4] n125
+11 0
+.names n125 n124 n126
+11 1
+.names n126 n123 n127
+11 1
+.names n127 n120 n128
+11 1
+.names n128 n113 n129
+11 1
+.names n129 n97 n130
+11 0
+.names A n131
+0 1
+.names n124 n131 n132
+00 1
+.names n132 n130 OUT[0]
+11 1
+.names n126 n122 n134
+11 1
+.names n121 n118 n135
+11 1
+.names n117 n115 n136
+11 1
+.names n136 n135 n137
+11 1
+.names n137 n134 n138
+11 1
+.names n114 n110 n139
+11 1
+.names n109 n106 n140
+11 1
+.names n140 n139 n141
+11 1
+.names n105 n102 n142
+11 1
+.names n101 n99 n143
+11 1
+.names n143 n142 n144
+11 1
+.names n144 n141 n145
+11 1
+.names n145 n138 n146
+11 1
+.names n98 n93 n147
+11 1
+.names n92 n89 n148
+11 1
+.names n148 n147 n149
+11 1
+.names n87 n83 n150
+11 1
+.names n81 n76 n151
+11 1
+.names n151 n150 n152
+11 1
+.names n152 n149 n153
+11 1
+.names n74 n70 n154
+11 1
+.names n154 n63 n155
+11 1
+.names n155 n58 n156
+11 1
+.names n156 n153 n157
+11 1
+.names n157 n146 n158
+11 0
+.names n69 n131 n159
+00 1
+.names n159 n158 OUT[1]
+11 1
+.names n74 n72 n161
+11 1
+.names n161 n153 n162
+11 1
+.names n162 n146 n163
+11 0
+.names n74 n131 n164
+00 1
+.names n164 n163 OUT[2]
+11 1
+.names n81 n77 n166
+11 1
+.names n166 n150 n167
+11 1
+.names n167 n149 n168
+11 1
+.names n168 n72 n169
+11 1
+.names n169 n146 n170
+11 0
+.names n76 n131 n171
+00 1
+.names n171 n170 OUT[3]
+11 1
+.names n81 n131 n173
+00 1
+.names n173 n170 OUT[4]
+11 1
+.names n87 n84 n175
+11 1
+.names n175 n77 n176
+11 1
+.names n176 n149 n177
+11 1
+.names n177 n72 n178
+11 1
+.names n178 n146 n179
+11 0
+.names n83 n131 n180
+00 1
+.names n180 n179 OUT[5]
+11 1
+.names n87 n85 n182
+11 1
+.names n182 n149 n183
+11 1
+.names n183 n72 n184
+11 1
+.names n184 n146 n185
+11 0
+.names n87 n131 n186
+00 1
+.names n186 n185 OUT[6]
+11 1
+.names n92 n90 n188
+11 1
+.names n188 n147 n189
+11 1
+.names n189 n85 n190
+11 1
+.names n190 n72 n191
+11 1
+.names n191 n146 n192
+11 0
+.names n89 n131 n193
+00 1
+.names n193 n192 OUT[7]
+11 1
+.names n92 n131 n195
+00 1
+.names n195 n192 OUT[8]
+11 1
+.names n98 n94 n197
+11 1
+.names n197 n90 n198
+11 1
+.names n198 n85 n199
+11 1
+.names n199 n72 n200
+11 1
+.names n200 n146 n201
+11 0
+.names n93 n131 n202
+00 1
+.names n202 n201 OUT[9]
+11 1
+.names n98 n97 n204
+11 1
+.names n204 n146 n205
+11 0
+.names n98 n131 n206
+00 1
+.names n206 n205 OUT[10]
+11 1
+.names n101 n100 n208
+11 1
+.names n208 n142 n209
+11 1
+.names n209 n141 n210
+11 1
+.names n210 n138 n211
+11 1
+.names n211 n97 n212
+11 0
+.names n99 n131 n213
+00 1
+.names n213 n212 OUT[11]
+11 1
+.names n101 n131 n215
+00 1
+.names n215 n212 OUT[12]
+11 1
+.names n105 n103 n217
+11 1
+.names n217 n100 n218
+11 1
+.names n218 n141 n219
+11 1
+.names n219 n138 n220
+11 1
+.names n220 n97 n221
+11 0
+.names n102 n131 n222
+00 1
+.names n222 n221 OUT[13]
+11 1
+.names n105 n104 n224
+11 1
+.names n224 n141 n225
+11 1
+.names n225 n138 n226
+11 1
+.names n226 n97 n227
+11 0
+.names n105 n131 n228
+00 1
+.names n228 n227 OUT[14]
+11 1
+.names n109 n107 n230
+11 1
+.names n230 n139 n231
+11 1
+.names n231 n104 n232
+11 1
+.names n232 n138 n233
+11 1
+.names n233 n97 n234
+11 0
+.names n106 n131 n235
+00 1
+.names n235 n234 OUT[15]
+11 1
+.names n109 n131 n237
+00 1
+.names n237 n234 OUT[16]
+11 1
+.names n114 n111 n239
+11 1
+.names n239 n107 n240
+11 1
+.names n240 n104 n241
+11 1
+.names n241 n138 n242
+11 1
+.names n242 n97 n243
+11 0
+.names n110 n131 n244
+00 1
+.names n244 n243 OUT[17]
+11 1
+.names n114 n113 n246
+11 1
+.names n246 n138 n247
+11 1
+.names n247 n97 n248
+11 0
+.names n114 n131 n249
+00 1
+.names n249 n248 OUT[18]
+11 1
+.names n117 n116 n251
+11 1
+.names n251 n135 n252
+11 1
+.names n252 n134 n253
+11 1
+.names n253 n113 n254
+11 1
+.names n254 n97 n255
+11 0
+.names n115 n131 n256
+00 1
+.names n256 n255 OUT[19]
+11 1
+.names n117 n131 n258
+00 1
+.names n258 n255 OUT[20]
+11 1
+.names n121 n119 n260
+11 1
+.names n260 n116 n261
+11 1
+.names n261 n134 n262
+11 1
+.names n262 n113 n263
+11 1
+.names n263 n97 n264
+11 0
+.names n118 n131 n265
+00 1
+.names n265 n264 OUT[21]
+11 1
+.names n121 n120 n267
+11 1
+.names n267 n134 n268
+11 1
+.names n268 n113 n269
+11 1
+.names n269 n97 n270
+11 0
+.names n121 n131 n271
+00 1
+.names n271 n270 OUT[22]
+11 1
+.names n122 n131 n273
+00 1
+.names n273 n130 OUT[23]
+11 1
+.names n125 n131 n275
+00 1
+.names n275 n130 OUT[24]
+11 1
+.names n74 n69 n277
+11 1
+.names n65 n62 n278
+11 1
+.names n278 n277 n279
+11 1
+.names n60 n56 n280
+11 1
+.names n52 n49 n281
+11 1
+.names n281 n280 n282
+11 1
+.names n282 n279 n283
+11 1
+.names n283 n153 n284
+11 1
+.names n284 n146 n285
+11 0
+.names n44 n131 n286
+00 1
+.names n286 n285 OUT[25]
+11 1
+.names n48 n131 n288
+00 1
+.names n288 n285 OUT[26]
+11 1
+.names n52 n131 n290
+00 1
+.names n290 n285 OUT[27]
+11 1
+.names n60 n57 n292
+11 1
+.names n292 n49 n293
+11 1
+.names n293 n279 n294
+11 1
+.names n294 n153 n295
+11 1
+.names n295 n146 n296
+11 0
+.names n56 n131 n297
+00 1
+.names n297 n296 OUT[28]
+11 1
+.names n60 n58 n299
+11 1
+.names n299 n279 n300
+11 1
+.names n300 n153 n301
+11 1
+.names n301 n146 n302
+11 0
+.names n60 n131 n303
+00 1
+.names n303 n302 OUT[29]
+11 1
+.names n65 n63 n305
+11 1
+.names n305 n277 n306
+11 1
+.names n306 n58 n307
+11 1
+.names n307 n153 n308
+11 1
+.names n308 n146 n309
+11 0
+.names n62 n131 n310
+00 1
+.names n310 n309 OUT[30]
+11 1
+.names n65 n131 n312
+00 1
+.names n312 n309 OUT[31]
+11 1
+.end

@@ -1,0 +1,141 @@
+.model full_adder_unsigned
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] B[0] B[1] B[2] B[3] B[4] B[5] \
+ B[6] Ci
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7]
+.names B[0] A[0] n24
+01 1
+10 1
+.names n24 Ci O[0]
+01 1
+10 1
+.names B[1] A[1] n26
+01 1
+10 1
+.names B[0] A[0] n27
+11 1
+.names n27 n26 n28
+01 1
+10 1
+.names n24 Ci n29
+11 1
+.names n29 n28 O[1]
+01 1
+10 1
+.names B[2] A[2] n31
+01 1
+10 1
+.names B[1] A[1] n32
+11 0
+.names n27 n26 n33
+11 0
+.names n33 n32 n34
+11 0
+.names n34 n31 n35
+01 1
+10 1
+.names n29 n28 n36
+11 1
+.names n36 n35 O[2]
+01 1
+10 1
+.names B[3] A[3] n38
+01 1
+10 1
+.names B[2] A[2] n39
+11 1
+.names n39 n40
+0 1
+.names n34 n31 n41
+11 0
+.names n41 n40 n42
+11 0
+.names n42 n38 n43
+01 1
+10 1
+.names n36 n35 n44
+11 1
+.names n44 n43 O[3]
+01 1
+10 1
+.names B[4] A[4] n46
+01 1
+10 1
+.names n38 n31 n47
+11 1
+.names n47 n34 n48
+11 0
+.names B[3] A[3] n49
+11 0
+.names n39 n38 n50
+11 0
+.names n50 n49 n51
+11 1
+.names n51 n48 n52
+11 0
+.names n52 n46 n53
+01 1
+10 1
+.names n44 n43 n54
+11 1
+.names n54 n53 O[4]
+01 1
+10 1
+.names B[5] A[5] n56
+00 1
+11 1
+.names B[4] A[4] n57
+11 1
+.names n57 n58
+0 1
+.names n52 n46 n59
+11 0
+.names n59 n58 n60
+11 1
+.names n60 n56 n61
+01 1
+10 1
+.names n54 n53 n62
+11 1
+.names n62 n61 O[5]
+01 1
+10 1
+.names B[6] A[6] n64
+00 1
+11 1
+.names n64 n65
+0 1
+.names B[4] A[4] n66
+00 1
+11 1
+.names n56 n66 n67
+00 1
+.names n67 n52 n68
+11 0
+.names B[5] A[5] n69
+11 0
+.names n58 n56 n70
+00 0
+.names n70 n69 n71
+11 1
+.names n71 n68 n72
+11 0
+.names n72 n65 n73
+01 1
+10 1
+.names n62 n61 n74
+11 1
+.names n74 n73 O[6]
+01 1
+10 1
+.names B[6] A[6] n76
+11 0
+.names n72 n65 n77
+11 0
+.names n77 n76 n78
+11 0
+.names n74 n73 n79
+11 1
+.names n79 n78 O[7]
+01 1
+10 1
+.end
