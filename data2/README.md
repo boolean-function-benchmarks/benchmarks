@@ -1,3 +1,10 @@
+# Flow
+
+![image](https://user-images.githubusercontent.com/37452722/218266595-855a6232-78a7-4bd0-83dc-d05f6116eda7.png)
+
+
+# Benchmarks
+
 | Benchmark               |   File        |  Inputs  |  Outputs | Model   | Specification |  Baseline (netlist)      |
 |-------------------------|---------------|----------|----------|---------|---------------|-----------------|
 |Unsigned full adder      |add3           |        7 |        4 |  [add.v](models/add.v)                              | [add3.pla](pla/add3.pla) ｜ [add3.tt](tt/add3.tt) ｜ [add3.plu](plu/add3.plu)      | [add3.blif](blif/add3.blif)    |
