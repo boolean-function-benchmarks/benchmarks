@@ -1,4 +1,4 @@
-# General Boolean Function Suite Repository
+# General Boolean Function Suite Benchmark Repository
 
 ## Suported data formats:
 
@@ -17,16 +17,29 @@ PLU files use the following meta parameters:
 
 Input file format which is commonly used for the ESPRESSO logic minimizer but can be also used to represent Boolean function benchmarks.
 
-The main meta parameters of the PLA files are: 
+Detailed information about PLA are provided here: 
+https://ddd.fit.cvut.cz/www/prj/Benchmarks/pla_c.html
+
+The main meta parameters of the PLA data format are: 
 
 ###### **.i** - number of input variables
 ###### **.o** - number of output variables
 ###### **.e** - end of file marker
 
-More information about PLA are provided here: 
-
-https://ddd.fit.cvut.cz/www/prj/Benchmarks/pla_c.html
-
-
 
 # BLIF
+
+The Berkeley Logic Interchange Format is a logic-level hierarchical circuit in textual form. 
+
+Detailed information about BLIF are provided here: 
+https://course.ece.cmu.edu/~ee760/760docs/blif.pdf
+
+
+The main meta parameters of the BLIF data format are: 
+
+######  .model
+######  .inputs
+######  .outputs
+######  .names
+
+
