@@ -35,3 +35,7 @@
 |                         |mcomp6         |       12 |        3 |  [mcomp.v](models/mcomp.v)                          | [mcomp6.pla](pla/mcomp6.pla) ｜ [mcomp6.tt](tt/mcomp6.tt) ｜ [mcomp6.plu](plu/mcomp6.plu) | [mcomp6.blif](blif/mcomp6.blif) |
 |Unsigned multiplier      |mul3           |        6 |        6 |  [mul.v](models/mul.v)                              | [mul3.pla](pla/mul3.pla) ｜ [mul3.tt](tt/mul3.tt) ｜ [mul3.plu](plu/mul3.plu)      | [mul3.blif](blif/mul3.blif)    |
 |                         |mul4           |        8 |        8 |  [mul.v](models/mul.v)                              | [mul4.pla](pla/mul4.pla) ｜ [mul4.tt](tt/mul4.tt) ｜ [mul4.plu](plu/mul4.plu)      | [mul4.blif](blif/mul4.blif)    |
+
+
+# Scaling of the benchmarks
+The provided Verilog models allow to scale every benchmark by modifying the WIDTH parameter either directly in the Verilog model or during the synthesis.
