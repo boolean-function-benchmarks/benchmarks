@@ -1,9 +1,0 @@
-.model majority_3bit
-.inputs A[0] A[1] A[2]
-.outputs O
-.names A[0] A[1] A[2] O
-011 1
-101 1
-110 1
-111 1
-.end
