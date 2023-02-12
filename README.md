@@ -1,7 +1,7 @@
 # General Boolean Function Suite Benchmark Repository
 (This readme version has been anonymized for double blind peer review and all references to related scientific work have been deleted)
 
-## Suported data formats:
+## Suported data formats for truth tables:
 
 ## PLU 
 
@@ -42,5 +42,11 @@ The main meta parameters of the BLIF data format are:
 ######  .inputs - declaration of the inputs
 ######  .outputs - declaration of the outputs
 ######  .names - assignment of the values
+
+
+
+## The evaluation methdology of the cryptographic benchmarks which are not represented as truth tables can be found here: 
+
+https://github.com/boolean-function-benchmarks/evaluation/tree/main/crypto
 
 
