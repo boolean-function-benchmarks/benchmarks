@@ -1,4 +1,5 @@
 # General Boolean Function Suite Benchmark Repository
+(This readme version has been anonymized and all references to former work have been deleted)
 
 ## Suported data formats:
 
@@ -37,9 +38,9 @@ https://course.ece.cmu.edu/~ee760/760docs/blif.pdf
 
 The main meta parameters of the BLIF data format are: 
 
-######  .model
-######  .inputs
-######  .outputs
-######  .names
+######  .model - name of the benchmarks
+######  .inputs - declaration of the inputs
+######  .outputs - declaration of the outputs
+######  .names - assignment of the values
 
 
