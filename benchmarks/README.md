@@ -36,6 +36,14 @@
 |Unsigned multiplier      |mul3           |        6 |        6 |  [mul.v](models/mul.v)                              | [mul3.pla](pla/mul3.pla) ｜ [mul3.tt](tt/mul3.tt) ｜ [mul3.plu](plu/mul3.plu)      | [mul3.blif](blif/mul3.blif)    |
 |                         |mul4           |        8 |        8 |  [mul.v](models/mul.v)                              | [mul4.pla](pla/mul4.pla) ｜ [mul4.tt](tt/mul4.tt) ｜ [mul4.plu](plu/mul4.plu)      | [mul4.blif](blif/mul4.blif)    |
 
+# Cryptographic functions
+
+| Benchmark               |   File        |  Inputs  |  Outputs | Nonlinearity  | Balanced |  Correlation Immunity | Algebraic Degree | Hamming Weight |
+|-------------------------|---------------|----------|----------|---------------|----------|-----------------------|------------------|----------------|
+|Bent                     |cbnt           |       12 |        1 |          2016 |      n/a |                   n/a |              n/a |            n/a |
+|Balanced                 |cbal           |       12 |        1 |          2000 |        1 |                   n/a |              n/a |            n/a |
+|Resilient                |cres           |       12 |        1 |          1984 |        1 |                     1 |               10 |            n/a |
+|Masking                  |cmas           |       12 |        1 |           n/a |      n/a |                     2 |              n/a |             32 |
 
 # Scaling of the benchmarks
 The provided Verilog models allow to scale every benchmark by modifying the WIDTH parameter either directly in the Verilog model or during the synthesis.
