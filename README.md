@@ -1,5 +1,5 @@
 # General Boolean Function Suite Benchmark Repository
-(This readme version has been anonymized and all references to former work have been deleted)
+(This readme version has been anonymized and all references to related scientific work have been deleted)
 
 ## Suported data formats:
 
