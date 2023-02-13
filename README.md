@@ -14,7 +14,7 @@ PLU files use the following meta parameters:
 ###### **.p** - number of chunks 
 ###### **.e** - end of file marker
 
-# PLA 
+## PLA 
 
 Input file format which is commonly used for the ESPRESSO logic minimizer but can be also used to represent Boolean function benchmarks.
 
@@ -28,7 +28,7 @@ The main meta parameters of the PLA data format are:
 ###### **.e** - end of file marker
 
 
-# BLIF
+## BLIF
 
 The Berkeley Logic Interchange Format is a logic-level hierarchical circuit in textual form. 
 
