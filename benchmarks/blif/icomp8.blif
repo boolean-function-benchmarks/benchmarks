@@ -1,0 +1,222 @@
+.model identity_comp
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8] O[9] O[10] O[11] \
+ O[12] O[13] O[14] O[15] O[16] O[17] O[18] O[19] O[20] O[21] O[22] O[23] \
+ O[24] O[25] O[26] O[27] O[28] O[29] O[30] O[31] O[32] O[33] O[34] O[35] \
+ O[36] O[37] O[38] O[39] O[40] O[41] O[42] O[43] O[44] O[45] O[46] O[47] \
+ O[48] O[49] O[50] O[51] O[52] O[53] O[54] O[55] O[56] O[57] O[58] O[59] \
+ O[60] O[61] O[62] O[63] O[64] O[65] O[66] O[67] O[68] O[69] O[70] O[71] \
+ O[72] O[73] O[74] O[75] O[76] O[77] O[78] O[79] O[80] O[81] O[82] O[83]
+.names A[0] n93
+0 1
+.names A[1] n93 O[0]
+11 1
+.names A[1] A[0] O[1]
+00 1
+11 1
+.names A[1] n96
+0 1
+.names n96 A[0] O[2]
+11 1
+.names A[2] n93 O[3]
+11 1
+.names A[2] A[0] O[4]
+00 1
+11 1
+.names A[2] n100
+0 1
+.names n100 A[0] O[5]
+11 1
+.names A[3] n93 O[6]
+11 1
+.names A[3] A[0] O[7]
+00 1
+11 1
+.names A[3] n104
+0 1
+.names n104 A[0] O[8]
+11 1
+.names A[4] n93 O[9]
+11 1
+.names A[4] A[0] O[10]
+00 1
+11 1
+.names A[4] n108
+0 1
+.names n108 A[0] O[11]
+11 1
+.names A[5] n93 O[12]
+11 1
+.names A[5] A[0] O[13]
+00 1
+11 1
+.names A[5] n112
+0 1
+.names n112 A[0] O[14]
+11 1
+.names A[6] n93 O[15]
+11 1
+.names A[6] A[0] O[16]
+00 1
+11 1
+.names A[6] n116
+0 1
+.names n116 A[0] O[17]
+11 1
+.names A[7] n93 O[18]
+11 1
+.names A[7] A[0] O[19]
+00 1
+11 1
+.names A[7] n120
+0 1
+.names n120 A[0] O[20]
+11 1
+.names A[2] n96 O[21]
+11 1
+.names A[2] A[1] O[22]
+00 1
+11 1
+.names n100 A[1] O[23]
+11 1
+.names A[3] n96 O[24]
+11 1
+.names A[3] A[1] O[25]
+00 1
+11 1
+.names n104 A[1] O[26]
+11 1
+.names A[4] n96 O[27]
+11 1
+.names A[4] A[1] O[28]
+00 1
+11 1
+.names n108 A[1] O[29]
+11 1
+.names A[5] n96 O[30]
+11 1
+.names A[5] A[1] O[31]
+00 1
+11 1
+.names n112 A[1] O[32]
+11 1
+.names A[6] n96 O[33]
+11 1
+.names A[6] A[1] O[34]
+00 1
+11 1
+.names n116 A[1] O[35]
+11 1
+.names A[7] n96 O[36]
+11 1
+.names A[7] A[1] O[37]
+00 1
+11 1
+.names n120 A[1] O[38]
+11 1
+.names A[3] n100 O[39]
+11 1
+.names A[3] A[2] O[40]
+00 1
+11 1
+.names n104 A[2] O[41]
+11 1
+.names A[4] n100 O[42]
+11 1
+.names A[4] A[2] O[43]
+00 1
+11 1
+.names n108 A[2] O[44]
+11 1
+.names A[5] n100 O[45]
+11 1
+.names A[5] A[2] O[46]
+00 1
+11 1
+.names n112 A[2] O[47]
+11 1
+.names A[6] n100 O[48]
+11 1
+.names A[6] A[2] O[49]
+00 1
+11 1
+.names n116 A[2] O[50]
+11 1
+.names A[7] n100 O[51]
+11 1
+.names A[7] A[2] O[52]
+00 1
+11 1
+.names n120 A[2] O[53]
+11 1
+.names A[4] n104 O[54]
+11 1
+.names A[4] A[3] O[55]
+00 1
+11 1
+.names n108 A[3] O[56]
+11 1
+.names A[5] n104 O[57]
+11 1
+.names A[5] A[3] O[58]
+00 1
+11 1
+.names n112 A[3] O[59]
+11 1
+.names A[6] n104 O[60]
+11 1
+.names A[6] A[3] O[61]
+00 1
+11 1
+.names n116 A[3] O[62]
+11 1
+.names A[7] n104 O[63]
+11 1
+.names A[7] A[3] O[64]
+00 1
+11 1
+.names n120 A[3] O[65]
+11 1
+.names A[5] n108 O[66]
+11 1
+.names A[5] A[4] O[67]
+00 1
+11 1
+.names n112 A[4] O[68]
+11 1
+.names A[6] n108 O[69]
+11 1
+.names A[6] A[4] O[70]
+00 1
+11 1
+.names n116 A[4] O[71]
+11 1
+.names A[7] n108 O[72]
+11 1
+.names A[7] A[4] O[73]
+00 1
+11 1
+.names n120 A[4] O[74]
+11 1
+.names A[6] n112 O[75]
+11 1
+.names A[6] A[5] O[76]
+00 1
+11 1
+.names n116 A[5] O[77]
+11 1
+.names A[7] n112 O[78]
+11 1
+.names A[7] A[5] O[79]
+00 1
+11 1
+.names n120 A[5] O[80]
+11 1
+.names A[7] n116 O[81]
+11 1
+.names A[7] A[6] O[82]
+00 1
+11 1
+.names n120 A[6] O[83]
+11 1
+.end
