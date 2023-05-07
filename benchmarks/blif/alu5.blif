@@ -1,0 +1,287 @@
+.model alu
+.inputs SEL[0] SEL[1] SEL[2] A[0] A[1] A[2] A[3] A[4] B[0] B[1] B[2] B[3] \
+ B[4]
+.outputs CARRY O[0] O[1] O[2] O[3] O[4]
+.names B[4] A[4] n20
+01 1
+10 1
+.names B[1] n21
+0 1
+.names n21 A[1] n22
+11 0
+.names B[1] A[1] n23
+00 1
+11 1
+.names A[0] n24
+0 1
+.names B[0] n24 n25
+11 0
+.names n25 n23 n26
+11 0
+.names n26 n22 n27
+11 0
+.names B[3] A[3] n28
+00 1
+11 1
+.names B[2] A[2] n29
+00 1
+11 1
+.names n29 n28 n30
+11 1
+.names n30 n27 n31
+11 0
+.names B[3] n32
+0 1
+.names n32 A[3] n33
+11 0
+.names B[2] n34
+0 1
+.names n34 A[2] n35
+11 1
+.names n35 n28 n36
+11 0
+.names n36 n33 n37
+11 1
+.names n37 n31 n38
+11 1
+.names n38 n20 n39
+00 0
+.names B[4] n40
+0 1
+.names n40 A[4] n41
+11 0
+.names SEL[2] n42
+0 1
+.names SEL[1] SEL[0] n43
+00 1
+.names n43 n42 n44
+11 1
+.names SEL[0] n45
+0 1
+.names SEL[1] n45 n46
+00 1
+.names n46 n42 n47
+11 1
+.names n47 n44 n48
+00 1
+.names SEL[1] SEL[0] n49
+11 1
+.names n49 n42 n50
+11 1
+.names SEL[1] n45 n51
+11 1
+.names n51 n42 n52
+11 1
+.names n52 n50 n53
+00 1
+.names n53 n48 n54
+11 1
+.names n54 n41 n55
+11 1
+.names n55 n39 n56
+11 0
+.names B[4] A[4] n57
+11 1
+.names B[4] A[4] n58
+00 1
+11 1
+.names B[1] A[1] n59
+11 0
+.names B[0] A[0] n60
+11 1
+.names B[1] A[1] n61
+01 1
+10 1
+.names n61 n60 n62
+11 0
+.names n62 n59 n63
+11 0
+.names B[3] A[3] n64
+01 1
+10 1
+.names B[2] A[2] n65
+01 1
+10 1
+.names n65 n64 n66
+11 1
+.names n66 n63 n67
+11 0
+.names B[3] A[3] n68
+11 0
+.names B[2] A[2] n69
+11 1
+.names n64 n69 n70
+11 0
+.names n70 n68 n71
+11 1
+.names n71 n67 n72
+11 1
+.names n72 n58 n73
+00 1
+.names n73 n57 n74
+00 0
+.names n54 n75
+0 1
+.names n75 n50 n76
+11 1
+.names n76 n74 n77
+11 0
+.names n77 n56 CARRY
+11 0
+.names B[0] A[0] n79
+01 1
+10 1
+.names n54 n79 n80
+11 0
+.names B[0] A[0] n81
+01 1
+10 1
+.names n81 n50 n82
+11 0
+.names n81 n52 n83
+11 0
+.names n83 n82 n84
+11 1
+.names B[0] A[0] n85
+00 0
+.names n47 n85 n86
+11 0
+.names n44 n60 n87
+11 0
+.names n87 n86 n88
+11 1
+.names n88 n84 n89
+11 0
+.names n89 n75 n90
+11 0
+.names n90 n80 O[0]
+11 0
+.names n25 n23 n92
+01 1
+10 1
+.names n92 n54 n93
+11 0
+.names n61 n60 n94
+01 1
+10 1
+.names n94 n50 n95
+11 0
+.names n59 n96
+0 1
+.names n44 n96 n97
+11 0
+.names n61 n52 n98
+11 0
+.names B[1] A[1] n99
+00 0
+.names n47 n99 n100
+11 0
+.names n100 n98 n101
+11 1
+.names n101 n97 n102
+11 1
+.names n102 n95 n103
+11 0
+.names n103 n75 n104
+11 0
+.names n104 n93 O[1]
+11 0
+.names n29 n27 n106
+01 1
+10 1
+.names n106 n54 n107
+11 0
+.names n65 n63 n108
+01 1
+10 1
+.names n108 n50 n109
+11 0
+.names n44 n69 n110
+11 0
+.names n65 n52 n111
+11 0
+.names B[2] A[2] n112
+00 0
+.names n47 n112 n113
+11 0
+.names n113 n111 n114
+11 1
+.names n114 n110 n115
+11 1
+.names n115 n109 n116
+11 0
+.names n116 n75 n117
+11 0
+.names n117 n107 O[2]
+11 0
+.names n29 n27 n119
+11 1
+.names n119 n35 n120
+00 0
+.names n120 n28 n121
+01 1
+10 1
+.names n121 n54 n122
+11 0
+.names n69 n123
+0 1
+.names n65 n63 n124
+11 0
+.names n124 n123 n125
+11 0
+.names n125 n64 n126
+01 1
+10 1
+.names n126 n50 n127
+11 0
+.names n68 n128
+0 1
+.names n44 n128 n129
+11 0
+.names n64 n52 n130
+11 0
+.names B[3] A[3] n131
+00 0
+.names n47 n131 n132
+11 0
+.names n132 n130 n133
+11 1
+.names n133 n129 n134
+11 1
+.names n134 n127 n135
+11 0
+.names n135 n75 n136
+11 0
+.names n136 n122 O[3]
+11 0
+.names n38 n20 n138
+01 1
+10 1
+.names n138 n54 n139
+11 0
+.names n72 n58 n140
+01 1
+10 1
+.names n140 n50 n141
+11 0
+.names n44 n57 n142
+11 0
+.names n58 n143
+0 1
+.names n143 n52 n144
+11 0
+.names B[4] A[4] n145
+00 0
+.names n47 n145 n146
+11 0
+.names n146 n144 n147
+11 1
+.names n147 n142 n148
+11 1
+.names n148 n141 n149
+11 0
+.names n149 n75 n150
+11 0
+.names n150 n139 O[4]
+11 0
+.end
