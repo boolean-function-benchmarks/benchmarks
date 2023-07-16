@@ -50,9 +50,6 @@ The evaluation technique of the cryptographic benchmarks which are not represent
 https://github.com/boolean-function-benchmarks/evaluation/tree/main/crypto
 
 
-## Baseline results 
-
-
 
 
 
