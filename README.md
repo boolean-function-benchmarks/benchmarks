@@ -1,5 +1,4 @@
 # General Boolean Function Suite Benchmark Repository
-(This readme version has been anonymized for double blind peer review and all references to related scientific work have been deleted)
 
 ## Suported data formats for truth tables:
 
